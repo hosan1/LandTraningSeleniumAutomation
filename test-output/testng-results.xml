@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-21T13:09:15 BDT" name="LandTraningSeleniumAutomation" finished-at="2021-08-21T13:10:17 BDT" duration-ms="62313">
+    <groups>
+    </groups>
+    <test started-at="2021-08-21T13:09:15 BDT" name="LoginTestModule" finished-at="2021-08-21T13:09:20 BDT" duration-ms="4957">
+      <class name="com.bat.LandTraningSeleniumAutomation.Test.LoginTest">
+        <test-method signature="LoginPageTitleVerify()[pri:0, instance:com.bat.LandTraningSeleniumAutomation.Test.LoginTest@1e6a3214]" started-at="2021-08-21T13:09:15 BDT" name="LoginPageTitleVerify" finished-at="2021-08-21T13:09:18 BDT" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleVerify -->
+        <test-method signature="logintest()[pri:0, instance:com.bat.LandTraningSeleniumAutomation.Test.LoginTest@1e6a3214]" started-at="2021-08-21T13:09:18 BDT" name="logintest" finished-at="2021-08-21T13:09:20 BDT" depends-on-methods="com.bat.LandTraningSeleniumAutomation.Test.LoginTest.LoginPageTitleVerify" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.bat.LandTraningSeleniumAutomation.Test.LoginTest -->
+    </test> <!-- LoginTestModule -->
+    <test started-at="2021-08-21T13:09:20 BDT" name="UserRegistrationModule" finished-at="2021-08-21T13:10:17 BDT" duration-ms="57209">
+      <class name="com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest">
+        <test-method signature="dashboardToRegistrationPage()[pri:0, instance:com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest@1caa0244]" started-at="2021-08-21T13:09:20 BDT" name="dashboardToRegistrationPage" finished-at="2021-08-21T13:09:27 BDT" duration-ms="6625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardToRegistrationPage -->
+        <test-method signature="newUserRegistration(java.util.List)[pri:0, instance:com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest@1caa0244]" started-at="2021-08-21T13:09:28 BDT" name="newUserRegistration" data-provider="loginData" finished-at="2021-08-21T13:10:17 BDT" depends-on-methods="com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest.dashboardToRegistrationPage" duration-ms="49353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=testuser1, password=Pass@1234, email=testmail1@gmail.com, mobile=1818181881, nameBn=টেস্ট ইউজার, nameEn=Test User, div=রাজশাহী, dis=রাজশাহী, upa=পবা, office=উপজেলা ভূমি অফিস পবা, des=সহকারী কমিশনার (ভূমি), usergroup=Assistant Commissioner, Land, Upazila Land Office, nid=s123456789760, phone=53272, offphone=723723527, dob=04-08-2021, gender=পুরুষ, peraddress=Dhaka, preaddress=Dhaka, exdate=04-08-2024, photo=E:\\browser_download\\65.jpg, sign=E:\\browser_download\\65.jpg], LoginDTO [username=testuser2, password=Pass@1234, email=testmail1@gmail.com, mobile=1818181881, nameBn=টেস্ট ইউজার, nameEn=Test User, div=রাজশাহী, dis=রাজশাহী, upa=পবা, office=উপজেলা ভূমি অফিস পবা, des=সহকারী কমিশনার (ভূমি), usergroup=Assistant Commissioner, Land, Upazila Land Office, nid=s123456789760, phone=53272, offphone=723723527, dob=04-08-2021, gender=পুরুষ, peraddress=Dhaka, preaddress=Dhaka, exdate=04-08-2024, photo=E:\\browser_download\\65.jpg, sign=E:\\browser_download\\65.jpg], LoginDTO [username=testuser3, password=Pass@1234, email=testmail1@gmail.com, mobile=1818181881, nameBn=টেস্ট ইউজার, nameEn=Test User, div=রাজশাহী, dis=রাজশাহী, upa=পবা, office=উপজেলা ভূমি অফিস পবা, des=সহকারী কমিশনার (ভূমি), usergroup=Assistant Commissioner, Land, Upazila Land Office, nid=s123456789760, phone=53272, offphone=723723527, dob=04-08-2021, gender=পুরুষ, peraddress=Dhaka, preaddress=Dhaka, exdate=04-08-2024, photo=E:\\browser_download\\65.jpg, sign=E:\\browser_download\\65.jpg], LoginDTO [username=testuser4, password=Pass@1234, email=testmail1@gmail.com, mobile=1818181881, nameBn=টেস্ট ইউজার, nameEn=Test User, div=রাজশাহী, dis=রাজশাহী, upa=পবা, office=উপজেলা ভূমি অফিস পবা, des=সহকারী কমিশনার (ভূমি), usergroup=Assistant Commissioner, Land, Upazila Land Office, nid=s123456789760, phone=53272, offphone=723723527, dob=04-08-2021, gender=পুরুষ, peraddress=Dhaka, preaddress=Dhaka, exdate=04-08-2024, photo=E:\\browser_download\\65.jpg, sign=E:\\browser_download\\65.jpg]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserRegistration -->
+      </class> <!-- com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest -->
+    </test> <!-- UserRegistrationModule -->
+  </suite> <!-- LandTraningSeleniumAutomation -->
+</testng-results>

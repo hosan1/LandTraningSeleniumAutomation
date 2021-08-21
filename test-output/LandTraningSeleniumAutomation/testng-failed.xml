@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LandTraningSeleniumAutomation]">
+  <test thread-count="5" name="UserRegistrationModule(failed)">
+    <classes>
+      <class name="com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest">
+        <methods>
+          <include name="newUserRegistration"/>
+          <include name="dashboardToRegistrationPage"/>
+        </methods>
+      </class> <!-- com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest -->
+    </classes>
+  </test> <!-- UserRegistrationModule(failed) -->
+</suite> <!-- Failed suite [LandTraningSeleniumAutomation] -->

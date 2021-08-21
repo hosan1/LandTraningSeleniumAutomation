@@ -1,0 +1,15 @@
+<suite name="LandTraningSeleniumAutomation">
+
+	<test name="LoginTestModule">
+		<classes>
+			<class name="com.bat.LandTraningSeleniumAutomation.Test.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="UserRegistrationModule">
+		<classes>
+			<class name="com.bat.LandTraningSeleniumAutomation.Test.UserRegistrationTest" />
+		</classes>
+	</test>
+
+</suite>
